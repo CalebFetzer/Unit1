@@ -2,10 +2,22 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Waterboy");
-        System.out.println("Fast & Furious");
-        System.out.println("Iron Man");
-        System.out.println("Spiderman");
-        System.out.println("Grown ups 2");
+        boolean livesInAlbertville = false;
+        char firstLetterOfName = 'C';
+        byte thisIsAByte = 123;
+        long veryLargeNum = 92233720368547758;
+        short notReallyShort = -31090;
+
+
+
+        System.out.println("What is the first letter of my name?");
+        System.out.println(firstLetterOfName);
+        System.out.println("Do I live in Albertville?");
+        System.out.println(livesInAlbertville);
+        System.out.println(thisIsAByte);
+        System.out.println(veryLargeNum);
+        System.out.println(notReallyShort);
+
+        
     }
 }
