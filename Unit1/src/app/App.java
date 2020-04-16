@@ -3,35 +3,32 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int i = 0; i <= 10; i = i +1){
-            System.out.println("The count is " + i);
-            System.out.println(" Let's keep counting.");
+        for (int i = 22; i <= 28; i = i +3){
+            System.out.println(i);
         }
 
-        for (int p = 10; p <= 20; p = p +1){
-            System.out.println("The count is " + p);
-            System.out.println("Let's keep counting.");
-        }
-        
-        for (int x = 10; x <= 100; x = x +10){
-            System.out.println("The count is " +x);
-            System.out.println("Let's keep counting");
+        for (int i = 2; i <= 32; i = i * 2){
+            System.out.println(i);
         }
 
-        for (int w = 1000; w <= 256000; w = w +1000){
-            System.out.println("The count is " +w);
-            System.out.println("Let's keep counting");
+        for (int i = 3; i >= -81; i = i * -i){
+            System.out.println(+ i);
         }
 
-        for (int e = 11; e <=12; e = e +1){
-            System.out.println("The count is " +e);
-            System.out.println("Let's keep counting.");
+        for (int i = 50; i >= 5; i = i -5){
+            System.out.println(i);
+        }
+        for (int i = 5; i >= 5; i = i +1){
+            System.out.println("I genuinely can't figure anything else out");
+            
+
+
         }
 
-        for (int u = 10; u <=0; u = u -1){
-            System.out.println("The count is " +u);
-            System.out.println("Let's keep counting.");
-        }
+
+
+
+
 
 
 
