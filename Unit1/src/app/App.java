@@ -1,26 +1,17 @@
 package app;
+
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-            Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-            System.out.println("Please enter your password.");
-            String passWord = input.nextLine();
-
-            if (passWord.equals("183726073")){
-                System.out.println("Access granted");
-            }else{
-                System.out.println("Access denied");
-            }
-            
-            
-
-
-
-            }
+        System.out.println("What's the count?");
+        int j = input.nextInt();
+        for (int i = 1; i <= j; i = i + 1) {
+            System.out.println(i);
         }
-    
 
-
+    }
+}
