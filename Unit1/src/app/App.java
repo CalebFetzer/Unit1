@@ -7,11 +7,33 @@ public class App {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("What's the count?");
-        int j = input.nextInt();
-        for (int i = 1; i <= j; i = i + 1) {
-            System.out.println(i);
+        System.out.println("How many continents are there?");
+        String continents = input.nextLine();
+
+        if (continents.equals("7")){
+            System.out.println("Corrrect");
+        }else{
+            System.out.println("Incorrect");
         }
+        System.out.println("How many hours are in a day?");
+        String hrsDay = input.nextLine();
+
+        if (hrsDay.equals("24")){
+            System.out.println("Correct");
+        }else{
+            System.out.println("Incorrect");
+        }
+        System.out.println("What is 1+1?");
+        String correctNum = input.nextLine();
+        if (correctNum.equals("2")){
+            System.out.println("Correct");
+        }else {
+            System.out.println("Incorrect");
+        }
+
+
+        
+        
 
     }
 }
