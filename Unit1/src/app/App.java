@@ -5,24 +5,19 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
 
+        Dog dog1 = new Dog();
+        Dog dog2 = new Dog();
+        Dog dog3 = new Dog();
+
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please Enter a number");
-        int num1 = input.nextInt();
+        dog1.name = "Bob";
+        dog2.breed = "Black Lab";
+        dog3.age = 2;
 
-        System.out.println("Please enter a function");
-        String func1 = input.nextLine();
-
-        System.out.println("Please enter a number");
-        int num2 = input.nextInt();
-        
-
-        System.out.println(num1 + func1 + num2);
-
- //I cannot figure out how to add a function.
-
-
-        
+        System.out.println(dog1.name);
+        System.out.println(dog2.breed);
+        System.out.println(dog3.age);
 
     }
 }
